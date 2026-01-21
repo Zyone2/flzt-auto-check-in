@@ -7,7 +7,7 @@ FLZT自动签到主逻辑模块
 import requests
 import logging
 from notification import BarkNotification
-from env import EMAIL, PASSWORD, LOGIN_URL, USER_INFO_URL, CONVERT_TRAFFIC_URL, CHECK_IN_URL
+from config import EMAIL, PASSWORD, LOGIN_URL, USER_INFO_URL, CONVERT_TRAFFIC_URL, CHECK_IN_URL
 
 logger = logging.getLogger(__name__)
 
