@@ -129,6 +129,9 @@ for acc in accounts:
     flzt = FLZT(email=acc["email"], password=acc["password"])
     flzt.run()
 ```
+## 📄 许可证
+
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
 
 ## 免责声明
 
